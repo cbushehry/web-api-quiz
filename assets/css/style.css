@@ -1,5 +1,4 @@
 /* START CSS STYLE */
-
 * {
     margin: 0;
     padding: 0;
@@ -14,3 +13,42 @@
     --correct-color: #6b8e23;
 }
 
+
+/* START BODY CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* START HEADER CSS */ 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.scores a,
+.timer {
+    font-size: 20px;
+}
+
+.scores a {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.scores a:hover {
+    color: var(--tertiary-color);
+}
