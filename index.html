@@ -17,9 +17,33 @@
         </div>
     </header>
 
+    <section id="start-container" class="start-quiz">
+        <h1>Welcome to JavaScript Quiz Challenge</h1>
+        <p>
+            You have 75 seconds to try to get the highest score by answering five
+            series of JavaScript questions. Incorrect answers will penalize your
+            time by ten seconds. Your total score will be your time after you
+            answer the last question. Click start when you are ready.
+        </p>
+        <div class="controls">
+            <button id="start-btn" class="start-btn">Start Quiz</button>
+        </div>
+    </section>
 
+    <section id="question-container" class="hide">
+        <h1 id="question">Question</h1>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <h2 id="check-answer" class="correct-wrong hide"></h2>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+    </section>
 
-    
 
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
