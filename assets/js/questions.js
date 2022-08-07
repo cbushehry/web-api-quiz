@@ -4,10 +4,10 @@ var questions = [
     { 
         question: "The condition in an if/else statement is encloded with ______.", 
         answers: [
-            { text: "quotes ''", correct: false },
-            { text: "curly brackets {}" , correct: true },
-            { text: "parenthesis ()", correct: false },
-            { text: "square brackets []", correct: false }
+            { text: "'' quotes ''", correct: false },
+            { text: "{ curly brackets }" , correct: true },
+            { text: "( parenthesis )", correct: false },
+            { text: "[ square brackets ]", correct: false }
         ]
     },
     { 
