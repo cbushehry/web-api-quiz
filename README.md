@@ -7,7 +7,7 @@ A timed multiple-choice quiz on JavaScript fundamentals that stores the users hi
 
 ## 2. Features
  * User has 90 seconds to complete the quiz
- * User is presented with 5 multiple-choice when the start button is pressed
+ * User is presented with 5 multiple-choice questions when the start button is pressed
  * If the user select the wrong answer, time is subtracted from the clock
  * Save your initals to leaderboard when quiz is complete
  * Users high scores are saved in localStorage
