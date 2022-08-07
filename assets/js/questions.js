@@ -2,48 +2,57 @@
 
 var questions = [
     { 
-        question: "How do you write 'Hello World' in an alert box?", 
+        question: "The condition in an if/else statement is encloded with ______.", 
         answers: [
-            { text: "msg('Hello World')", correct: false },
-            { text: "alert('Hello World')" , correct: true },
-            { text: "prompt('Hello World')", correct: false },
-            { text: "alertBox('Hello World')", correct: false }
+            { text: "quotes ''", correct: false },
+            { text: "curly brackets {}" , correct: true },
+            { text: "parenthesis ()", correct: false },
+            { text: "square brackets []", correct: false }
         ]
     },
     { 
-        question: "Which of the following function of Array object calls a function for each element in the array?", 
+        question: "A very useful tool used during development and debugging for printing content to the debugger is:", 
         answers: [
-            { text: "concat()", correct: false },
-            { text: "filter()", correct: false },
-            { text: "forEach()", correct: true },
-            { text: "split()", correct: false }
+            { text: "JavaScript", correct: false },
+            { text: "for loops", correct: false },
+            { text: "console.log", correct: true },
+            { text: "terminal/bash", correct: false }
         ]
     },
     { 
-        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 8?", 
+        question: "Commonly used data types DO Not Include:",
         answers: [
-            { text: "if (i != 8)", correct: true },
-            { text: "if i =! 8", correct: false },
-            { text: "if (i <> 8)", correct: false },
-            { text: "if (i !=== 8)", correct: false }
+            { text: "strings", correct: false },
+            { text: "alerts", correct: true },
+            { text: "numbers", correct: false },
+            { text: "booleans", correct: false }
         ]
     },
     { 
-        question: "What is the correct way to write a JavaScript array?", 
+        question: "What is a function in JavaScript?", 
         answers: [
-            { text: "var vegetable = (0:'kale', 1:'lettuce', 2:'spinach')", correct: false },
-            { text: "var vegetable = ['kale', 'lettuce', 'spinach']", correct: true },
-            { text: "var vegetable = (kale, lettuce, spinach)", correct: false },
-            { text: "None of the above", correct: false }
+            { text: "A data structure used to represent a list of items", correct: false },
+            { text: "Set of statements that perform a task or calculates a value", correct: true },
+            { text: "A datatype that returns either true or false", correct: false },
+            { text: "Any text inside double or single quotes", correct: false }
         ]
     },
     { 
-        question: "How do you round the number 102.456, to the nearest integer?",
+        question: "What is an array in JavaScript?",
         answers: [
-            { text: "Math.random(102.456)", correct: false },
-            { text: "Math.rnd(102.456)", correct: false },
-            { text: "round(102.456)", correct: false },
-            { text: "None of the above", correct: true }
+            { text: "A data structure used to represent a list of items", correct: true },
+            { text: "A variable", correct: false },
+            { text: "A value type", correct: false },
+            { text: "A type of operator", correct: false }
+        ]
+    },
+    { 
+        question: "Arrays in JavaScript can be used to store", 
+        answers: [
+            { text: "numbers and strings", correct: false },
+            { text: "other arrays", correct: false },
+            { text: "booleans", correct: false },
+            { text: "all of the above", correct: true }
         ]
     },
 ]
