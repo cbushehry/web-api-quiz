@@ -13,6 +13,12 @@ A timed multiple-choice quiz on JavaScript fundamentals that stores the users hi
  * Users high scores are saved in localStorage
  * User can clear the leaderboard at any point
 
+ ![](assets\images\webapiquiz_pic1.JPG)
+
+ ![](assets\images\webapiquiz_pic2.JPG)
+
+ ![](assets\images\webapiquiz_pic3.JPG)
+
 ## 3. Credits / Contact
 This website was created by Cameron Bushehry
 
