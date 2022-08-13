@@ -13,11 +13,11 @@ A timed multiple-choice quiz on JavaScript fundamentals that stores the users hi
  * Users high scores are saved in localStorage
  * User can clear the leaderboard at any point
 
-![web api quiz homepage](assets\images\webapiquiz_pic1.png)
+![web api quiz homepage](assets/images/webapiquiz_pic1.png)
 
-![web api quiz questions](assets\images\webapiquiz_pic2.png)
+![web api quiz questions](assets/images/webapiquiz_pic2.png)
 
-![web api quiz leaderboard](assets\images\webapiquiz_pic3.png)
+![web api quiz leaderboard](assets/images/webapiquiz_pic3.png)
 
 ## 3. Credits / Contact
 This website was created by Cameron Bushehry
