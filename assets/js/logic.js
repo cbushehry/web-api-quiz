@@ -18,15 +18,12 @@ var restartButton = document.getElementById("restart-btn");
 var scoreField = document.getElementById("player-score");
 var scores = JSON.parse(localStorage.getItem("scores")) || [];
 
-
-
 // Start button trigger the first question and next button to display
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
     currentQuestionIndex++
     setNextQuestion()
 });
-
 
 // Countdown timer
 function timeTick() {
@@ -36,7 +33,6 @@ function timeTick() {
         saveScore();
     }
 }
-
 
 // Start Quiz
 function startGame() {
@@ -51,13 +47,11 @@ function startGame() {
     setNextQuestion();
 };
 
-
 // Go to next question
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 };
-
 
 // Display questions
 function showQuestion(question) {
@@ -74,7 +68,6 @@ function showQuestion(question) {
     })
 };
 
-
 // Reset state function
 function resetState() {
     //clearStatusClass(document.body)
@@ -85,7 +78,6 @@ function resetState() {
             (answerButtonsEl.firstChild)
     }
 };
-
 
 // Select answer function
 function selectAnswer(e) {
@@ -119,7 +111,6 @@ function selectAnswer(e) {
     }
 };
 
-
 // Check and show the correct answer by set the buttons colors
 function setStatusClass(element, correct) {
     clearStatusClass(element)
@@ -130,13 +121,11 @@ function setStatusClass(element, correct) {
     }
 };
 
-
 // Remove all the classes
 function clearStatusClass(element) {
     element.classList.remove("correct");
     element.classList.remove("wrong");
 };
-
 
 // Save scores
 function saveScore() {
@@ -150,7 +139,6 @@ function saveScore() {
 
     }, 2000)
 };
-
 
 var loadScores = function () {
     // Get score from local storage
@@ -174,7 +162,6 @@ var loadScores = function () {
         scoreField.innerText = score.score
     })
 };
-
 
 // Show high scores
 function showHighScores(initials) {
@@ -208,7 +195,6 @@ function showHighScores(initials) {
 
 };
 
-
 // View high scores link
 viewHighScores.addEventListener("click", showHighScores);
 
@@ -218,12 +204,10 @@ submitButton.addEventListener("click", function (event) {
     showHighScores(initials);
 });
 
-
 // Restart or reload the page
 restartButton.addEventListener("click", function () {
     window.location.reload();
 });
-
 
 // Clear localStorage items 
 clearScoreButton.addEventListener("click", function () {
