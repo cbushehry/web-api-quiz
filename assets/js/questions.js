@@ -55,4 +55,31 @@ var questions = [
             { text: "all of the above", correct: true }
         ]
     },
+    { 
+        question: "How do you add an item to the end of an array named fruits?", 
+        answers: [
+            { text: "fruits.end('Apple')", correct: false },
+            { text: "fruits.add('Apple')", correct: false },
+            { text: "fruits.push('Apple')", correct: true },
+            { text: "fruits.insert('Apple')", correct: false }
+        ]
+    },
+    { 
+        question: "Which of the following correctly declares a function in JavaScript?", 
+        answers: [
+            { text: "function = myFunction() { }", correct: false },
+            { text: "function myFunction { }", correct: false },
+            { text: "function: myFunction() { }", correct: false },
+            { text: "function myFunction() { }", correct: true }
+        ]
+    },
+    { 
+        question: "Which of the following is not a primitive data type in JavaScript?", 
+        answers: [
+            { text: "string", correct: false },
+            { text: "number", correct: false },
+            { text: "boolean", correct: false },
+            { text: "array", correct: true }
+        ]
+    },
 ]
